@@ -13,6 +13,9 @@ namespace ManipulaVar
             {
                 x++;
                 Console.WriteLine(x);
+                x--;
+                x--;
+                Console.WriteLine(x);
             }
         }
     }
