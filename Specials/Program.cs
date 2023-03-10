@@ -32,6 +32,10 @@ namespace Specials
             float fx=float.PositiveInfinity;
             float fy=float.NegativeInfinity;
             float fz=float.NaN;
+            float f1,f2=100000.0f;
+            double d1,d2=1000000.0;
+            f1=f2;
+            d1=d2;
 
 
             Console.WriteLine($"Max value of byte:{Mb}");
@@ -79,10 +83,10 @@ namespace Specials
             Console.WriteLine("underflow of ulong:"+(long)(mul-1));
             Console.WriteLine("overflow of float:"+(float)(Mf+1));
             Console.WriteLine("overflow of float:"+(float)(2*Mf));
-            Console.WriteLine("underflow of float:");
+            Console.WriteLine("underflow of float:"+(f1==f2+0.000000001f));
             Console.WriteLine("overflow of double:"+(double)(Md+1));
             Console.WriteLine("overflow of double:"+(double)(2*Md));
-            Console.WriteLine("underflow of double:");
+            Console.WriteLine("underflow of double:"+(d1==d2+0.0000000000001));
 
 
         }
