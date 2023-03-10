@@ -12,12 +12,12 @@ namespace PerguntaValores
             string raio=Console.ReadLine();
             float a=float.Parse(altura);
             float r=float.Parse(raio);
-            float pi=3.1415926f;
+            double pi=Math.PI;
 
-            float V=pi*r*r*a;
+            double V=pi*Math.Pow(r,2)*a;
             Console.WriteLine($"O valor do volume é: {V}");
 
-            float S=2*pi*r*(r+a);
+            double S=2*pi*r*(r+a);
             Console.WriteLine($"O valor da area de superficie é: {S}");
         }
     }
