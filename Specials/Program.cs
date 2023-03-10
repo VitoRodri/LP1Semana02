@@ -26,6 +26,13 @@ namespace Specials
             float mf=float.MinValue;
             double Md=double.MaxValue;
             double md=double.MinValue;
+            double x=double.PositiveInfinity;
+            double y=double.NegativeInfinity;
+            double z=double.NaN;
+            float fx=float.PositiveInfinity;
+            float fy=float.NegativeInfinity;
+            float fz=float.NaN;
+
 
             Console.WriteLine($"Max value of byte:{Mb}");
             Console.WriteLine($"Min value of byte:{mb}");
@@ -47,6 +54,13 @@ namespace Specials
             Console.WriteLine($"Min value of float:{mf}");
             Console.WriteLine($"Max value of double:{Md}");
             Console.WriteLine($"Min value of double:{md}");
+            Console.WriteLine($"Positive infinity of double: {x}");
+            Console.WriteLine($"Negative infinity of double: {y}");
+            Console.WriteLine($"Nan of double: {z}");
+            Console.WriteLine($"Positive infinity of float: {fx}");
+            Console.WriteLine($"Negative infinity of float: {fy}");
+            Console.WriteLine($"Nan of float: {fz}");
+
 
         }
     }
