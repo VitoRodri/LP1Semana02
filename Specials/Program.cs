@@ -61,6 +61,27 @@ namespace Specials
             Console.WriteLine($"Negative infinity of float: {fy}");
             Console.WriteLine($"Nan of float: {fz}");
 
+            Console.WriteLine("overflow of byte:"+(byte)(Mb+1));
+            Console.WriteLine("underflow of byte:"+(byte)(mb-1));
+            Console.WriteLine("overflow of sbyte:"+(sbyte)(Msb+1));
+            Console.WriteLine("underflow of sbyte:"+(sbyte)(msb-1));
+            Console.WriteLine("overflow of short:"+(short)(Ms+1));
+            Console.WriteLine("underflow of short:"+(short)(ms-1));
+            Console.WriteLine("overflow of ushort:"+(ushort)(Mus+1));
+            Console.WriteLine("underflow of ushort:"+(ushort)(mus-1));
+            Console.WriteLine("overflow of int:"+(int)(Mi+1));
+            Console.WriteLine("underflow of int:"+(int)(mi-1));
+            Console.WriteLine("overflow of uint:"+(uint)(Mui+1));
+            Console.WriteLine("underflow of uint:"+(uint)(mui-1));
+            Console.WriteLine("overflow of long:"+(long)(Ml+1));
+            Console.WriteLine("underflow of long:"+(long)(ml-1));
+            Console.WriteLine("overflow of ulong:"+(ulong)(Mul+1));
+            Console.WriteLine("underflow of ulong:"+(long)(mul-1));
+            Console.WriteLine("overflow of float:");
+            Console.WriteLine("underflow of float:");
+            Console.WriteLine("overflow of double:");
+            Console.WriteLine("underflow of double:");
+
 
         }
     }
