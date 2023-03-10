@@ -16,6 +16,9 @@ namespace PerguntaValores
 
             float V=pi*r*r*a;
             Console.WriteLine($"O valor do volume é: {V}");
+
+            float S=2*pi*r*(r+a);
+            Console.WriteLine($"O valor da area de superficie é: {S}");
         }
     }
 }
