@@ -77,9 +77,11 @@ namespace Specials
             Console.WriteLine("underflow of long:"+(long)(ml-1));
             Console.WriteLine("overflow of ulong:"+(ulong)(Mul+1));
             Console.WriteLine("underflow of ulong:"+(long)(mul-1));
-            Console.WriteLine("overflow of float:");
+            Console.WriteLine("overflow of float:"+(float)(Mf+1));
+            Console.WriteLine("overflow of float:"+(float)(2*Mf));
             Console.WriteLine("underflow of float:");
-            Console.WriteLine("overflow of double:");
+            Console.WriteLine("overflow of double:"+(double)(Md+1));
+            Console.WriteLine("overflow of double:"+(double)(2*Md));
             Console.WriteLine("underflow of double:");
 
 
